@@ -27,7 +27,7 @@ you need to install nodejs :
     
 For Windows : https://nodejs.org/dist/v22.2.0/node-v22.2.0-x64.msi       
 
-For MacOS : https://nodejs.org/dist/v22.2.0/node-v22.2.0.pkg
+For MacOS : https://nodejs.org/dist/v22.2.0/node-v22.2.0.pkg  
 
 For Linux, execute in a terminal : 
       
